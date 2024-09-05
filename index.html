@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas Sociais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Problemas Sociais</h1>
+    <form id="quiz-form">
+        <fieldset>
+            <legend>Selecione os problemas sociais:</legend>
+
+            <label>
+                <input type="checkbox" name="problemas" value="Pobreza">
+                Pobreza
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="problemas" value="Desigualdade de Renda">
+                Desigualdade de Renda
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="problemas" value="Violência">
+                Violência
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="problemas" value="Fome">
+                Fome
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="problemas" value="Educação de Qualidade">
+                Educação de Qualidade
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="problemas" value="Saúde">
+                Saúde
+            </label><br>
+
+            <button type="button" onclick="checkAnswers()">Verificar Respostas</button>
+        </fieldset>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
